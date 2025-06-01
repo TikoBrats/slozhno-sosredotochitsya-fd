@@ -266,7 +266,7 @@
 }
 .footer {
   position: relative;
-  min-height: 667px;
+  min-height: 668px;
   display: grid;
   place-items: center;
   padding: 20px;
