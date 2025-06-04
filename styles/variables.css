@@ -10,7 +10,7 @@
   --bg-image: none;
   --color-bg-secondary: rgba(255, 255, 255, 0.1); 
   --header-image: url('../images/cover-image-dark.png'); 
-}
+  }
 
 :root.theme-dark {
   --color-bg-secondary: rgba(0, 0, 0, 0.3); 
@@ -21,7 +21,7 @@
   --color-focus: #FF0070;
   --color-shadow: #FF0070;
   --bg-image: url('../images/cover-image-dark.png');
-}
+  }
 
 :root.theme-light {
   --color-text: #353430;
@@ -31,8 +31,8 @@
   --color-focus: #353430;
   --header-image: url('../images/cover-image-light.png'); 
   --color-bg-secondary: rgba(255, 255, 255, 0.7); 
-}
+  }
 
 .page:not(.theme-light):not(.theme-dark) {
   background-color: var(--color-bg);
-}
+  }
