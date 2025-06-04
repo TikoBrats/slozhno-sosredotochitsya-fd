@@ -163,6 +163,7 @@
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
+  margin-top: 45px;
 }
 
 .section-tip__subtitle {
