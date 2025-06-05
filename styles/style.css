@@ -110,7 +110,7 @@
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 10px;
+ margin-top: 40px;
 }
 
 .grid-container {
@@ -194,7 +194,7 @@
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .gallery {
@@ -202,7 +202,6 @@
   flex-direction: column;
   margin-top: 15px;
   gap: 10px;
-  margin-top: 20px;
 }
 
 .gallery__item {
