@@ -107,13 +107,6 @@
   margin-top: 20px;
 }
 
-.table__title {
-  color: var(--color-accent);
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 30px;
-}
-
 .section__title {
   color: var(--color-accent);
   font-size: 18px;
@@ -157,13 +150,23 @@
   background-color: var(--color-accent);
   margin-top: 10px;
 }
+
+.table__title {
+  color: var(--color-accent);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
 .table-content {
   margin-top: 10px;
 }
+
 .tips-section {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: 35px;
 }
 
 .section-tip__title {
