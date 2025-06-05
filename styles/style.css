@@ -155,11 +155,13 @@
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .table-content {
   margin-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 3px;
 }
 
 .tips-section {
