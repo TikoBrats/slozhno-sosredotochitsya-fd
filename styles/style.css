@@ -31,7 +31,6 @@
   font-weight: 700;
   text-shadow: 5px 4px 0 var(--color-shadow);
   line-height: 83%;
-
 }
 
 .header__subtitle {
@@ -96,33 +95,31 @@
 }
 
 .content {
-  padding: 20px 10px;
+  padding: 50px 10px;
   max-width: 100%;
 }
 
 .grid-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
+  padding-bottom: 50px;
 }
 
 .section__title {
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 
 .grid-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .grid-article {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .article__title {
@@ -130,17 +127,21 @@
   font-size: 18px;
   font-weight: 700;
   background-color: var(--color-accent);
-  margin: 0;
 }
 
 .article__content {
   color: var(--color-text);
   font-size: 18px;
   line-height: 23.4px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .article__content p {
   margin: 0 0 8px 0;
+}
+.table-section {
+  padding-bottom: 50px;
 }
 
 .table-heading {
@@ -148,40 +149,40 @@
   font-size: 18px;
   font-weight: 700;
   background-color: var(--color-accent);
-  margin-top: 22px;
 }
 
 .table__title {
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 40px;
+  padding-bottom: 20px;
 }
 
 .table-content {
-  margin-top: 10px;
-  padding-bottom: 15px;
-  padding-top: 3px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tips-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 27px;
+  padding-bottom: 50px;
 }
 
 .section-tip__title {
   color: var(--color-accent);
   font-size: 18px;
   font-weight: 700;
-  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .section-tip__subtitle {
   background-color: var(--color-accent);
   color: #000000;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .tip__title {
@@ -189,15 +190,14 @@
   font-size: 18px;
   font-weight: 400;
   background-color: var(--color-accent);
-  margin-top: 20px;
-  
 }
 
 .tip__content {
   color: var(--color-text);
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .image-option__text {
@@ -206,7 +206,6 @@
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 700;
-  margin-top: 40px;
 }
 
 .gallery {
@@ -233,7 +232,6 @@
   display: grid;
   place-items: center;
   padding: 20px;
-  margin-top: 30px;
 }
 
 .footer__title {
@@ -260,8 +258,8 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   
   .header__decoration {
-    top: 20px;
-    right: 20px;
+  top: 20px;
+  right: 20px;
   }
 
   .header__title {
