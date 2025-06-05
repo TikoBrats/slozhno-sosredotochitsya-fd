@@ -137,11 +137,8 @@
   padding-bottom: 20px;
 }
 
-.article__content p {
-  margin: 0 0 8px 0;
-}
 .table-section {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .table-heading {
@@ -162,7 +159,7 @@
   font-size: 18px;
   font-weight: 400;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .tips-section {
@@ -231,7 +228,6 @@
   min-height: 668px;
   display: grid;
   place-items: center;
-  padding: 20px;
 }
 
 .footer__title {
