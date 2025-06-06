@@ -12,6 +12,7 @@
   background-size: cover;
   background-attachment: fixed;
   inline-size: 100%;
+  margin-bottom: 20px;
 }
 
 .header {
