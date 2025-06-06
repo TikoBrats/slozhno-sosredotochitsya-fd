@@ -1,4 +1,20 @@
-.theme-light .page {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+:root.theme-light {
+  --color-text: #353430;
+  --color-title: #FFC2E6;
+  --color-bg: #FFF1F7;
+  --color-accent: #FF8DCB;
+  --color-focus: #353430;
+  --header-image: url('../images/cover-image-light.png'); 
+  }
+
+  @media (prefers-color-scheme: light ) {
+:root {
+  --color-text: #353430;
+  --color-title: #FFC2E6;
+  --color-bg: #FFF1F7;
+  --color-accent: #FF8DCB;
+  --color-focus: #353430;
+  --header-image: url('../images/cover-image-light.png'); 
+  }
 }
+  
