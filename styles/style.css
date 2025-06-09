@@ -306,7 +306,6 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-
   }
 
   .table-title {
@@ -327,7 +326,6 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 0;
-
   }
 
   .gallery__title {
@@ -338,7 +336,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
   }
 
   .gallery__content {
@@ -375,7 +372,6 @@
     min-height: 1024px;
     padding: 20px;
   }
-
 }
 
 @media (width >=1024px) {
@@ -421,7 +417,6 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
-
 
   .header__subtitle {
     width: 50%;
@@ -488,16 +483,13 @@
     grid-template-columns: 32% 66%;
   }
 
-
   .section-gallery {
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 0;
   }
 
-
   .footer {
     min-height: 768px;
   }
-
 }
