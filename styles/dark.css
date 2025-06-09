@@ -1,10 +1,10 @@
 :root.theme-dark {
-  --color-text: #F1B2CE;
-  --color-title: #DB00FF;
+  --color-text: #f1b2ce;
+  --color-title: #db00ff;
   --color-bg: #000028;
-  --color-accent: #FF0070;
-  --color-focus: #FF0070;
-  --color-shadow: #FF0070;
-  --bg-image: url('../images/cover-image-dark.png');
+  --color-accent: #ff0070;
+  --color-focus: #ff0070;
+  --color-shadow: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
   --hover-button: rgba(255, 0, 112, 0.4);
 }

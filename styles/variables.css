@@ -1,5 +1,5 @@
 :root {
-  --font-family: "IBM Plex Mono", monospace;
+  --font-family: "IBM Plex Mono", sans-serif;
   --font-size: 18px;
   --line-height: 23.4px;
   --color-text: #f1b2ce;
@@ -8,7 +8,6 @@
   --color-title: #db00ff;
   --color-shadow: #ff0070;
   --hover-button: rgba(255, 0, 112, 0.4);
-  /* --color-bg-secondary: rgba(255, 255, 255, 0.1);  */
   --header-image: url("../images/cover-image-dark.png");
   --title-heading: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
