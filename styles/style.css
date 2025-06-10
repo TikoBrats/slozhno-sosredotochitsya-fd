@@ -24,19 +24,21 @@
 .header__rec {
   position: absolute;
   top: 10px;
-  left: 304px;
+  right: 38px;
   color: var(--color-accent);
 }
 
-.rec-dot {
+.header__rec::after {
+  content: "";
   position: absolute;
-  top: 18px;
-  left: 347px;
+  top: 8px;
+  right: 0;
   width: 10px;
   height: 10px;
   background-color: var(--color-accent);
   border-radius: 50%;
-  box-shadow: 0 0 8px var(--color-accent);
+  box-shadow: 0 0 4px 2px var(--color-accent);
+  margin-right: -20px;
 }
 
 .header__title {
@@ -49,14 +51,12 @@
 }
 
 .text-decor {
-  color: #000000;
-  background-color: var(--color-accent);
+  color: var(--color-text-sub);
+  background-color: var(--color-decoration);
 }
 
 .header__subtitle {
   font-weight: 700;
-  background-color: var(--color-accent);
-  color: rgba(0, 0, 40, 1);
   line-height: 23px;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--color-accent);
+  border: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--hover-button);
+  border-bottom: 1px solid var(--color-focus);
 }
 
 .decorated-zone::before,
@@ -136,12 +136,6 @@
   line-height: 23.4px;
 }
 
-.section__subtitle {
-  font-weight: 400px;
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-}
-
 .content-link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--color-accent);
@@ -167,6 +161,17 @@
   line-height: var(--line-height);
   font-size: var(--font-size);
   font-weight: 700;
+}
+.block-text__title_sub {
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+  font-weight: 400;
+}
+
+.section__subtitle {
+  font-weight: 700;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
 }
 
 .block-text__content {
@@ -222,23 +227,16 @@
 
   .header__rec {
     top: 20px;
-    left: 687px;
-  }
-
-  .rec-dot {
-    top: 28px;
-    left: 730px;
-    width: 10px;
-    height: 10px;
+    right: 48px;
   }
 
   .decorated-zone::before {
     top: 20px;
-    left: 723px;
+    right: 20px;
   }
 
   .decorated-zone::after {
-    top: 979px;
+    bottom: 20px;
     left: 20px;
   }
 
@@ -363,29 +361,6 @@
 @media (width >=1024px) {
   .header {
     min-height: 768px;
-  }
-
-  .header__rec {
-    top: 20px;
-    left: 943px;
-  }
-
-  .rec-dot {
-    top: 28px;
-    left: 986px;
-    width: 10px;
-    height: 10px;
-  }
-
-  .decorated-zone::before {
-    top: 20px;
-    left: 979px;
- 
-  }
-
-  .decorated-zone::after {
-    top: 723px;
-    left: 20px;
   }
 
   .header__theme-menu {

@@ -2,9 +2,14 @@
   --color-text: #353430;
   --color-title: #ffc2e6;
   --color-bg: #fff1f7;
-  --color-accent: #ff8dcb;
+  --color-decoration: #ff8dcb;
+  --color-text-sub: #353430;
+  --color-accent: #353430;
   --color-focus: #353430;
   --header-image: url("../images/cover-image-light.png");
+}
+.theme-light .header__rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -12,8 +17,14 @@
     --color-text: #353430;
     --color-title: #ffc2e6;
     --color-bg: #fff1f7;
-    --color-accent: #ff8dcb;
+    --color-decoration: #ff8dcb;
+    --color-text-sub: #353430;
+    --color-accent: #353430;
     --color-focus: #353430;
     --header-image: url("../images/cover-image-light.png");
+  }
+
+  .header__rec {
+    display: none;
   }
 }
