@@ -1,5 +1,5 @@
 :root {
-  --font-family: "IBM Plex Mono", sans-serif;
+  --font-family: "IBM Plex Mono", monospace;
   --font-size: 18px;
   --line-height: 23.4px;
   --color-text: #f1b2ce;
