@@ -6,7 +6,9 @@
   --color-text-sub: #353430;
   --color-accent: #353430;
   --color-focus: #353430;
-  --header-image: url("../images/cover-image-light.png");
+  --bg-image: url(../images/cover-image-light.png);
+  --color-shadow: #ff8dcb;
+  --hover-button: rgba(50, 49, 45, 0.4);
 }
 .theme-light .header__rec {
   display: none;
@@ -21,7 +23,9 @@
     --color-text-sub: #353430;
     --color-accent: #353430;
     --color-focus: #353430;
-    --header-image: url("../images/cover-image-light.png");
+    --bg-image: url(../images/cover-image-light.png);
+    --color-shadow: #ff8dcb;
+    --hover-button: rgba(50, 49, 45, 0.4);
   }
 
   .header__rec {

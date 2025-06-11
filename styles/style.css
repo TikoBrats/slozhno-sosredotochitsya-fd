@@ -45,7 +45,7 @@
   color: var(--color-title);
   font-size: var(--title-heading);
   font-weight: 700;
-  text-shadow: 5px 4px 0 var(--color-shadow);
+  text-shadow: 4px 4px 0 var(--color-shadow);
   line-height: 83%;
   justify-self: start;
 }
@@ -138,11 +138,11 @@
 
 .content-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--color-accent);
+  text-shadow: 2px 2px 0 var(--color-decoration);
 }
 
 .content-link:hover {
-  border-bottom: 1px solid var(--color-text);
+  border-bottom: 1px solid var(--color-accent);
 }
 
 .content-link:focus {
@@ -195,7 +195,7 @@
 }
 
 .gallery__title {
-  color: #000000;
+  color: var(--color-text-sub);
   font-size: var(--font-size);
   font-weight: 700;
   line-height: var(--line-height);
@@ -215,7 +215,7 @@
   color: var(--color-title);
   font-size: var(--title-heading);
   font-weight: 700;
-  text-shadow: 2px 2px 0 var(--color-shadow);
+  text-shadow: 4px 4px 0 var(--color-shadow);
   line-height: 0.83;
 }
 
